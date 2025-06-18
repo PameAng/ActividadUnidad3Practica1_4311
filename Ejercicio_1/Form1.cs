@@ -19,6 +19,7 @@ namespace Ejercicio_1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            lbtabla.Items.Clear();
             if(string.IsNullOrEmpty(txtnumero.Text))
                     {
                 MessageBox.Show("Debe introducir un número","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -30,6 +31,11 @@ namespace Ejercicio_1
             {
                 lbtabla.Items.Add($"{numero}*{i}={i * numero}");
             }
+        }
+
+        private void lbtabla_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

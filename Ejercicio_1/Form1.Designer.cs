@@ -58,6 +58,7 @@
             this.lbtabla.Name = "lbtabla";
             this.lbtabla.Size = new System.Drawing.Size(120, 212);
             this.lbtabla.TabIndex = 2;
+            this.lbtabla.SelectedIndexChanged += new System.EventHandler(this.lbtabla_SelectedIndexChanged);
             // 
             // button1
             // 
