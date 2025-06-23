@@ -60,5 +60,15 @@ namespace Ejercicio_7
             }
             return true;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtFin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
